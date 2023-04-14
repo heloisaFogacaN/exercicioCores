@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.textoMeio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 990px;
+}
+
+.botaoSemBorda {
+    border: none;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+}
+
+body{
+    background-color: aqua;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.pink {
+    background-color: pink;
+}
