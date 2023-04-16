@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +9,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-    
-
+<body id="mudar">
     <header>
-        <nav> 
-            <button class="botaoSemBorda" onclick="simple()">Simple</button>        
-            <button class="botaoSemBorda" onclick="hex()">Hex</button>        
+        <nav>
+            <button>Flipper Color</button>
+            <button class="direita" onclick="window.location.href='./simple.html'">Simple</button>
+            <button class="direita" onclick="window.location.href='./hex.html'">Hex</button>
         </nav>
     </header>
-    <body id="mudar">
-
+    <main>
         <div class="textoMeio" style="display: flex; flex-direction: column">
-            <h1>nome da cor</h1>
-            <button onclick="mudarCor()">CLICK ME</button>
+            <h1 id="nomeCor">Flipper Color</h1>
+            <button id="mudarCorBotao" onclick="mudarCor()">CLICK ME</button>
+        </div>
     </main>
-    
     <script src="cores.js"></script>
 </body>
-    
-</body>
+
 </html>
