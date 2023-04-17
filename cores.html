@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="mudar">
+    <header>
+        <nav>
+            <button>Flipper Color</button>
+            <button class="direita" onclick="window.location.href='./simple.html'">Simple</button>
+            <button class="direita" onclick="window.location.href='./hex.html'">Hex</button>
+        </nav>
+    </header>
+    <main>
+        <div class="textoMeio" style="display: flex; flex-direction: column">
+            <h1 id="nomeCor">Flipper Color</h1>
+            <button id="mudarCorBotao" onclick="mudarCor()">CLICK ME</button>
+        </div>
+    </main>
+    <script src="cores.js"></script>
+</body>
+
+</html>
